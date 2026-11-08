@@ -1,16 +1,59 @@
-# React + Vite
+# monocromo®
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+E-commerce de indumentaria en escala de grises: prendas atemporales en blanco, negro y todos los tonos del medio.
 
-Currently, two official plugins are available:
+Proyecto final del curso de **React JS**. Se construye por etapas (pre-entregas) hasta llegar a una tienda completa con catálogo, carrito, inicio de sesión y generación de órdenes.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Estado del proyecto
 
-## React Compiler
+🚧 En desarrollo. Pre-entrega 1: estructura base del proyecto con React y Vite.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tecnologías
 
-## Expanding the ESLint configuration
+- [React 19](https://react.dev/)
+- [Vite](https://vite.dev/)
+- JavaScript
+- CSS
+- ESLint
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Instalación y ejecución
+
+1. Clonar el repositorio:
+
+```bash
+git clone https://github.com/ceg1907/monocromo-ecommerce.git
+```
+
+2. Entrar a la carpeta del proyecto:
+
+```bash
+cd monocromo-ecommerce
+```
+
+3. Instalar las dependencias:
+
+```bash
+npm install
+```
+
+4. Iniciar el servidor de desarrollo:
+
+```bash
+npm run dev
+```
+
+5. Abrir en el navegador la dirección que aparece en la terminal (por defecto, `http://localhost:5173`).
+
+## Estructura
+
+```
+src/
+├── components/   # Componentes de la aplicación
+├── App.jsx       # Componente principal
+├── main.jsx      # Punto de entrada
+└── index.css     # Estilos globales
+```
+
+## Autora
+
+Cristina Gonzalez · [GitHub](https://github.com/ceg1907)
