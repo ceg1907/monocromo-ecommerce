@@ -1,8 +1,11 @@
+import ItemListContainer from './components/ItemListContainer/ItemListContainer';
+import Navbar from './components/Navbar/Navbar';
+
 function App() {
   return (
     <>
-      <h1>monocromo®</h1>
-      <p>Indumentaria en escala de grises</p>
+      <Navbar />
+      <ItemListContainer greeting='Bienvenida a monocromo: el gris también es un color' />
     </>
   );
 }
