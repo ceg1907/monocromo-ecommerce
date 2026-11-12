@@ -20,7 +20,6 @@
 .box-header ul li {
     list-style: none;
     text-transform: capitalize;
-
 }
 
 .indice-header {
@@ -28,13 +27,11 @@
     border-radius: 2rem;
     display: inline-block;
     transition: all 0.3s;
-
 }
 
 .indice-header:hover {
     background-color: var(--color-fondo-suave);
 }
-
 
 .box-header a {
     text-decoration: none;
@@ -54,5 +51,4 @@
     font-family: var(--fuente-destacada);
     font-style: italic;
     font-weight: normal;
-
 }
