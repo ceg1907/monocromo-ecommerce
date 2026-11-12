@@ -1,25 +1,38 @@
+import './Navbar.css';
 import CartWidget from '../CartWidget/CartWidget';
 
 function Navbar() {
   return (
-    <header>
-      <a href='#'>monocromo®</a>
+    <header className='box-header'>
+      <a href='#' className='logo-header'>
+        monocromo<span>®</span>
+      </a>
       <nav>
         <ul>
           <li>
-            <a href='#'>abrigos</a>
+            <a href='#' className='indice-header'>
+              abrigos
+            </a>
           </li>
           <li>
-            <a href='#'>tejidos</a>
+            <a href='#' className='indice-header'>
+              tejidos
+            </a>
           </li>
           <li>
-            <a href='#'>camisas</a>
+            <a href='#' className='indice-header'>
+              camisas
+            </a>
           </li>
           <li>
-            <a href='#'>pantalones</a>
+            <a href='#' className='indice-header'>
+              pantalones
+            </a>
           </li>
           <li>
-            <a href='#'>accesorios</a>
+            <a href='#' className='indice-header'>
+              accesorios
+            </a>
           </li>
         </ul>
       </nav>
