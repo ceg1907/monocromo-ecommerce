@@ -1,0 +1,54 @@
+/* BARRA DE NAVEGACION */
+
+.box-header {
+    background-color: var(--color-superficie);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem;
+    padding: 0.5rem 3rem;
+    border-radius: 3rem;
+}
+
+.box-header ul {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.box-header ul li {
+    list-style: none;
+    text-transform: capitalize;
+}
+
+.indice-header {
+    padding: 8px 16px;
+    border-radius: 2rem;
+    display: inline-block;
+    transition: all 0.3s;
+}
+
+.indice-header:hover {
+    background-color: var(--color-fondo-suave);
+}
+
+.box-header a {
+    text-decoration: none;
+    color: var(--color-texto);
+}
+
+.logo-header {
+    font-size: 24px;
+    font-weight: 800;
+    font-stretch: 75%;
+    font-width: 75%;
+    letter-spacing: -0.04em;
+}
+
+.logo-header span {
+    font-size: 24px;
+    font-family: var(--fuente-destacada);
+    font-style: italic;
+    font-weight: normal;
+}

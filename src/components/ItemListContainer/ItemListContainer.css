@@ -1,0 +1,8 @@
+/* CATALOGO */
+
+.box-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 1rem;
+}

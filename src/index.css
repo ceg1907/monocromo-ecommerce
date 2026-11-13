@@ -1,5 +1,33 @@
+:root {
+    /* Colores */
+
+    /* títulos, textos principales, botón principal */
+    --color-texto: #121212;
+    /* párrafos largos */
+    --color-texto-suave: #3a3a37;
+    /* textos chicos, etiquetas */
+    --color-texto-secundario: #5a5a56;
+    /* fondo de la página */
+    --color-fondo: #f1f1ef;
+    /* filtros, cajas, skeletons */
+    --color-fondo-suave: #e4e4e0;
+    /* tarjetas y campos de formulario */
+    --color-superficie: #ffffff;
+
+
+    /* Tipografías */
+    --fuente-principal: 'Bricolage Grotesque Variable', sans-serif;
+    --fuente-destacada: 'Instrument Serif', serif;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    background-color: var(--color-fondo);
+    color: var(--color-texto);
+    font-family: var(--fuente-principal);
 }
