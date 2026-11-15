@@ -1,3 +1,5 @@
+import './ItemList.css';
+
 import ProductCard from '../ProductCard/ProductCard';
 
 const ItemList = ({ items }) => {
