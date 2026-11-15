@@ -1,10 +1,12 @@
+import ProductCard from '../ProductCard/ProductCard';
+
 const ItemList = ({ items }) => {
     return (
-        <ul>
+        <div className='box-products'>
             {items.map((item) => (
-                <li key={item.id}>{item.name}</li>
+                <ProductCard key={item.id} item={item} />
             ))}
-        </ul>
+        </div>
     );
 };
 
