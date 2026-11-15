@@ -4,7 +4,7 @@ const ProductCard = ({ item }) => {
             <img src={item.img} alt={item.name} />
             <h3>{item.name}</h3>
             <p>{item.description}</p>
-            <span>{item.price}</span>
+            <span>${item.price.toLocaleString('es-AR')}</span>
         </article>
     );
 };
