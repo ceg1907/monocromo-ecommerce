@@ -24,6 +24,21 @@ function ItemListContainer({ greeting }) {
         getData();
     }, []);
 
+    if (loading) {
+        return (
+            <main className='box-main'>
+                <p>cargando productos...</p>
+            </main>
+        );
+    }
+    if (error) {
+        return (
+            <main className='box-main'>
+                <p>Ha ocurrido un error, intenta mas tarde</p>
+            </main>
+        );
+    }
+
     return (
         <main className='box-main'>
             <h1>{greeting}</h1>
