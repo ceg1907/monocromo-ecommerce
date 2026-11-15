@@ -1,0 +1,9 @@
+.img-card {
+    width: 100%;
+    aspect-ratio: 3/4;
+    object-fit: cover;
+    border-radius: 22px;
+}
+.box-description-item {
+    margin-top: 10px;
+}
