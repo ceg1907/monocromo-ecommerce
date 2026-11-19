@@ -7,3 +7,12 @@
 .box-description-item {
     margin-top: 10px;
 }
+
+.text-category {
+    text-transform: capitalize;
+    color: var(--color-texto-secundario);
+    background-color: var(--color-fondo-suave);
+    border-radius: 10px;
+    display: inline-block;
+    padding: 2px 6px;
+}
