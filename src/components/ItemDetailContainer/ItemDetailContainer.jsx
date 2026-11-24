@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import { getProductById } from '../../mock/asyncMock';
+import ItemDetail from '../ItemDetail/ItemDetail';
 
 const productId = '1';
 
@@ -41,7 +42,7 @@ const ItemDetailContainer = () => {
 
     return (
         <main className='box-main'>
-            <h1>{product.name}</h1>
+            <ItemDetail product={product} />
         </main>
     );
 };
