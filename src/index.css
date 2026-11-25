@@ -14,7 +14,6 @@
     /* tarjetas y campos de formulario */
     --color-superficie: #ffffff;
 
-
     /* Tipografías */
     --fuente-principal: 'Bricolage Grotesque Variable', sans-serif;
     --fuente-destacada: 'Instrument Serif', serif;
@@ -24,6 +23,22 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: 700;
+    letter-spacing: -0.02em;
 }
 
 body {

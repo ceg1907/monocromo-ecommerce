@@ -7,3 +7,18 @@
 .box-description-item {
     margin-top: 10px;
 }
+
+.text-category {
+    text-transform: capitalize;
+    color: var(--color-texto-secundario);
+    background-color: var(--color-fondo-suave);
+    border-radius: 10px;
+    display: inline-block;
+    padding: 2px 6px;
+}
+
+.card-tittle {
+    font-size: 17px;
+    font-weight: 600;
+    margin: 6px 0 2px;
+}

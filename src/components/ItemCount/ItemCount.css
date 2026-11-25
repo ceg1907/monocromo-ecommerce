@@ -1,0 +1,44 @@
+/* CONTADOR */
+
+.item-count {
+    display: inline-flex;
+    align-self: flex-start;
+    align-items: center;
+    gap: 4px;
+    padding: 4px;
+    border-radius: 999px;
+    background-color: var(--color-fondo-suave);
+}
+
+.count-btn {
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 50%;
+    background: transparent;
+    color: var(--color-texto);
+    font-size: 22px;
+    line-height: 1;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.count-btn:hover:not(:disabled) {
+    background-color: var(--color-superficie);
+}
+
+.count-btn:disabled {
+    color: var(--color-texto-secundario);
+    opacity: 0.4;
+    cursor: not-allowed;
+}
+
+.count-number {
+    min-width: 36px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+}

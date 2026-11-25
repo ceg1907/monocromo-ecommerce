@@ -92,3 +92,18 @@ export const getProducts = () => {
         }, 2000);
     });
 };
+
+export const getProductById = (productId) => {
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
+            const productoEncontrado = products.find(
+                (product) => product.id === productId,
+            );
+            if (productoEncontrado) {
+                resolve(productoEncontrado);
+            } else {
+                reject('Producto no encontrado.');
+            }
+        }, 500);
+    });
+};
