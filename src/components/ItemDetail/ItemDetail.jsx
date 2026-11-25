@@ -1,3 +1,5 @@
+import ItemCount from '../ItemCount/ItemCount';
+
 const ItemDetail = ({ product }) => {
     return (
         <article className='detail-product'>
@@ -7,6 +9,7 @@ const ItemDetail = ({ product }) => {
                 <h3 className='detail-price'>
                     ${product.price.toLocaleString('es-AR')}
                 </h3>
+                <ItemCount stock={product.stock} />
                 <p>{product.category}</p>
                 <p>{product.description}</p>
                 <p>Stock disponible: {product.stock} unidades</p>
